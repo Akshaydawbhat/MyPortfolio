@@ -1,0 +1,94 @@
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  @media (max-width: 1440px) {
+    .main {
+      height: 655px;
+      width: 100%;
+      background-color: hsl(212, 45%, 89%);
+      display: flex;
+    }
+
+    .child {
+      height: 420px;
+      width: 270px;
+      background-color: hsl(0, 0%, 100%);
+      margin: 0 auto;
+      border-radius: 18px;
+      margin-top: 110px;
+    }
+
+    img {
+      height: 240px;
+      width: 240px;
+      margin: 15px;
+      border-radius: 10px;
+    }
+
+    .para1 {
+      width: 220px;
+      color: hsl(208, 44%, 22%);
+      font-size: 18px;
+      font-weight: bold;
+      font-family: 'Outfit';
+      text-align: center;
+      margin: -30px auto;
+    }
+
+    .para2 {
+      width: 200px;
+      font-family: 'Outfit';
+      margin: 40px auto;
+      text-align: center;
+      color: hsl(220, 15%, 55%);
+      font-size: 12px;
+
+    }
+  }
+
+  @media (max-width:375px) {
+    .main {
+      height: 655px;
+      width: 100%;
+      background-color: hsl(212, 45%, 89%);
+      display: flex;
+    }
+
+    .child {
+      height: 360px;
+      width: 150px;
+      background-color: hsl(0, 0%, 100%);
+      margin: 0 auto;
+      border-radius: 18px;
+      margin-top: 110px;
+    }
+
+    img {
+      height: 120px;
+      width: 120px;
+      margin: 15px;
+      border-radius: 10px;
+    }
+
+    .para1 {
+      width: 120px;
+      color: hsl(208, 44%, 22%);
+      font-size: 18px;
+      font-weight: bold;
+      font-family: 'Outfit';
+      text-align: center;
+      margin: -30px auto;
+    }
+
+    .para2 {
+      width: 120px;
+      font-family: 'Outfit';
+      margin: 40px auto;
+      text-align: center;
+      color: hsl(220, 15%, 55%);
+      font-size: 12px;
+
+    }
+  }
